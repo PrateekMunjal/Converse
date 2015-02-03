@@ -1,0 +1,28 @@
+<LinearLayout
+    android:padding="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prateek.converse.Profile">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/innerLayout">
+   <ImageSwitcher
+       android:layout_width="match_parent"
+       android:id="@+id/imageSwitcher"
+       android:layout_height="wrap_content">
+   </ImageSwitcher>
+</LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="next"
+        android:src="@drawable/bw"/>
+
+</LinearLayout>
